@@ -1,0 +1,79 @@
+/* Main style */
+
+/* Body */
+body {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #FFF;
+  color: #312736;
+  font-family: 'Inika', serif;
+}
+
+/* Header */
+h1 {
+  font-family: 'Allan', cursive;
+  font-weight: 700;
+  font-size: 90px;
+	text-align: center;
+}
+
+/* Bio */
+p.bio {
+  font-size: 36px;
+	text-align: center;
+}
+
+/* Links */
+ul.links {
+	text-align: center;
+  padding-left: 0px;
+  font-size: 36px;
+}
+ul.links li {
+  display: inline;
+  margin-right: 10px;
+}
+a, a:visited, a:active, a:hover {
+  color: #69A5A4;
+  text-decoration: none;
+}
+
+/* Wrapper */
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Row. */
+.row {
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  color: #777;
+  margin: 0 auto 50px auto;
+}
+.row img {
+  width: 100%;
+}
+.row p {
+}
+.row-container {
+}
+
+/* Back btn. */
+.back {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+/* Circular image. */
+.profile-circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url('../img/me.jpg') no-repeat;
+	margin: 100px auto 50px auto;
+}

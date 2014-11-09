@@ -13,11 +13,11 @@ app.use(express.static(__dirname + '/public'));
 
 // Routes.
 app.get('/', function(req, res) {
-	res.render('index');
+  res.render('index');
 });
 
 app.get('/projects', function(req, res) {
-	res.render('projects');
+  res.render('projects');
 });
 
 app.get('/secret', function(req, res) {
